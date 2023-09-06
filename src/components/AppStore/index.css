@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+.main-heading {
+  color: #1e293b;
+  font-size: 54px;
+  font-weight: 900;
+}
+
+.img-element {
+  height: 30px;
+  width: 30px;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 550px;
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 700;
+}
+.input-container {
+  border: 2px solid #7b8794;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 6px;
+}
+.tabs-container {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  color: #7b8794;
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+}
+
+.get-apps-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

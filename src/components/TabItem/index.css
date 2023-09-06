@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.btn-tabs {
+  background-color: transparent;
+  color: #7b8794;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  outline: none;
+}
+
+.active {
+  border-bottom: 3px solid #ace0f9;
+  color: #2563eb;
+  padding-bottom: 8px;
+}
